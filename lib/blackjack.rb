@@ -19,6 +19,7 @@ end
 
 def get_user_input
   # code #get_user_input here
+  gets
 end
 
 def end_game
@@ -27,6 +28,8 @@ end
 
 def initial_round
   # code #initial_round here
+  puts sum 
+  return sum
 end
 
 def hit?
