@@ -34,7 +34,7 @@ end
 
 def hit?
   # code hit? here
-  
+  expect($stdout).to receive(:puts).with("Type 'h' to hit or 's' to stay")
 end
 
 def invalid_command
