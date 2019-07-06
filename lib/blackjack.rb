@@ -39,7 +39,7 @@ end
 
 def invalid_command
   # code invalid_command here
-  
+  expect(self).to receive(:get_user_input).and_return("s")
 end
 
 #####################################################
