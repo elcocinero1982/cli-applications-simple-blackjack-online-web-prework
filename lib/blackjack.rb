@@ -34,11 +34,9 @@ end
 
 def hit?
   # code hit? here
+ expect($stdout).to receive(:puts).with("Type 'h' to hit or 's' to stay")
  
  
-  it "prints the value of the cards to the screen" do
-    expect($stdout).to receive(:puts).with("Your cards add up to 8")
-    display_card_total(8)
   end
 end
 
